@@ -6,9 +6,25 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+@layer base { 
   html {
     /* font-family: "Raleway", sans-serif; */
-    font-family: 'Great Vibes', cursive;
+    /* font-family: 'Great Vibes', cursive; */
   }
+  #partciles-component{
+    position: absolute;
+    height: 100vh;
+    z-index: -1;
+  width: 100%;
+  }
+  
 }
+::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+    background-color: darkslategray;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: gray;
+  }
