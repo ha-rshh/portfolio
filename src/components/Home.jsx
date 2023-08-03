@@ -34,7 +34,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my-vector"
-            className="mx-auto w-3/5 rounded-full md:w-full "
+            className="mx-auto w-4/5 rounded-full md:w-full relative bottom-16 md:static"
           />
         </div>
       </div>

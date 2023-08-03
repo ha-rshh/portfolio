@@ -46,7 +46,7 @@ export default {
       directions: "none",
       enable: true,
       outModes: {
-        default: "bounce",
+        default: "",
       },
       random: true,
       speed: 6,
