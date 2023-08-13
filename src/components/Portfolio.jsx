@@ -1,5 +1,5 @@
 import React from "react";
-import budget from "../assets/budget.jpg";
+import ecom from "../assets/ecom.png";
 import codebuzz from "../assets/codebuzz.jpg";
 import colorpicker from "../assets/colorpicker.jpg";
 import whatsapp from "../assets/whatsapp.jpg";
@@ -10,9 +10,9 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: budget,
-      demo: "https://strong-meerkat-beefaf.netlify.app/",
-      code: "https://github.com/ha-rshh/budgeter",
+      src: ecom,
+      demo: "https://tangerine-lokum-332e01.netlify.app/",
+      code: "https://github.com/ha-rshh/elevate-store",
     },
     {
       id: 2,
